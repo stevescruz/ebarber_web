@@ -1,0 +1,94 @@
+{
+    "env": {
+        "browser": true,
+        "es2020": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+				"airbnb",
+				"plugin:@typescript-eslint/recommended",
+				"prettier/@typescript-eslint",
+				"plugin:prettier/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 11,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+				"react-hooks",
+				"@typescript-eslint",
+				"prettier"
+    ],
+    "rules": {
+			"prettier/prettier": "error",
+			"react/jsx-one-expression-per-line": "off",
+			"react-hooks/rules-of-hooks": "error",
+			"react-hooks/exhaustive-deps": "warn",
+			"react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
+			"react/jsx-indent": [2, "tab"],
+			"react/jsx-indent-props": [2, "tab"],
+
+			"import/prefer-default-export": "off",
+			"camelcase": "off",
+			"@typescript-eslint/naming-convention": [
+				"error",
+				{
+					"selector": "default",
+					"format": ["camelCase"]
+				},
+
+				{
+					"selector": "variable",
+					"format": ["camelCase", "PascalCase"]
+				},
+				{
+					"selector": "parameter",
+					"format": ["camelCase"],
+					"leadingUnderscore": "allow"
+				},
+
+				{
+					"selector": "memberLike",
+					"modifiers": ["private"],
+					"format": ["camelCase"],
+					"leadingUnderscore": "require"
+				},
+
+				{
+					"selector": "typeLike",
+					"format": ["PascalCase"]
+				},
+
+				{
+					"selector": "property",
+					"format": ["camelCase", "snake_case"]
+				}
+
+			],
+
+			"@typescript-eslint/explicit-function-return-type": [
+				"error",
+				{
+					"allowExpressions": true
+				}
+			],
+			"import/extensions": [
+				"error",
+				"ignorePackages",
+				{
+					"ts": "never",
+					"tsx": "never"
+				}
+			]
+		},
+		"settings": {
+			"import/resolver": {
+				"typescript": {}
+			}
+		}
+}
