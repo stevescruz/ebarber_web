@@ -4,7 +4,7 @@
 </h1>
 
 <h4 align="center">
-  Register as a client or a barber. The eBarber web page allows clients to choose a barber and schedule 
+  Register as a client or a barber. The eBarber web page allows clients to choose a barber and schedule
   available appointments.
 </h4>
 
@@ -21,7 +21,7 @@
 
 ## Goal
 
-The goal is to create a full project using Node.js, ReactJS, and React Native from start to finish, fulfilling all possible steps since 
+The goal is to create a full project using Node.js, ReactJS, and React Native from start to finish, fulfilling all possible steps since
 preparing the development environment with Docker, configuring tools that help maintain code quality (EditorConfig, ESLint and Prettier)
 to testing with Jest, deploying and all the coding in between.
 
