@@ -13,7 +13,7 @@ import { Container, ContentWrapper, BackgroundContainer } from './styles';
 import Button from '../../components/Button/index';
 import Input from '../../components/Input/index';
 
-import { useAuth } from '../../context/AuthContext';
+import { useAuth } from '../../hooks/AuthContext';
 
 interface SignInFormData {
 	email: string;
