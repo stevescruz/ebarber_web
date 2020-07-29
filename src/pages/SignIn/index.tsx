@@ -72,6 +72,7 @@ const SignIn: React.FC = () => {
 	return (
 		<>
 			<Container>
+				<BackgroundContainer />
 				<ContentWrapper>
 					<AnimationContainer>
 						<img src={logoImg} alt="Logo eBarber" />
@@ -92,13 +93,12 @@ const SignIn: React.FC = () => {
 							<a href="forgot">Forgot your password?</a>
 						</Form>
 
-						<Link to="/signUp">
+						<Link to="/signup">
 							<FiLogIn size="16" />
 							Sign up
 						</Link>
 					</AnimationContainer>
 				</ContentWrapper>
-				<BackgroundContainer />
 			</Container>
 		</>
 	);

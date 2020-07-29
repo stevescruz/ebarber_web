@@ -10,10 +10,10 @@ export const Container = styled.div`
 	align-items: stretch;
 `;
 
-const appearFromRight = keyframes`
+const appearFromLeft = keyframes`
 	from {
 		opacity: 0;
-		transform: translateX(50px);
+		transform: translateX(-50px);
 	}
 	to {
 		opacity: 1;
@@ -37,7 +37,7 @@ export const AnimationContainer = styled.div`
 	align-items: center;
 	justify-content: center;
 
-	animation: ${appearFromRight} 1s;
+	animation: ${appearFromLeft} 1s;
 
 	form {
 		width: 340px;

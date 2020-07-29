@@ -5,7 +5,7 @@
 
 <h4 align="center">
 
-  The eBarber web page allows you to join as a client or a barber! If you are a client pick your favorite barber and schedule an available appointments. If you are a barber disclose your available times.
+  The eBarber web page allows you to join as a client or a barber! If you are a client pick your favorite barber and schedule an available appointment. If you are a barber disclose your available times.
 
 </h4>
 
@@ -22,7 +22,7 @@
 
 ## Goal
 
-The goal is to create a full project using TypeScript, Node.js, ReactJS, and React Native from start to finish, fulfilling all possible steps since preparing the development environment with Docker, configuring tools that help maintain code quality (EditorConfig, ESLint and Prettier) to testing with Jest, deploying and all the coding in between.
+The goal is to create a full project using TypeScript, Node.js, ReactJS, and React Native from start to finish, fulfilling all possible steps: preparing the development environment with Docker, configuring tools that help maintain code quality (EditorConfig, ESLint and Prettier) to testing with Jest, deploying, and all the coding in between.
 
 eBarber web is a web application that can consume the eBarber API to provide its services.
 
@@ -44,25 +44,25 @@ eBarber web is a web application that can consume the eBarber API to provide its
   - [x] React-Icons library
   - [x] Polished library
   - [x] Validate Sign In
-- [ ] Sign Up Page
+- [x] Sign Up Page
   - [x] Managing the Form with Unform library
   - [x] Input Usability with visual cues (On Focus)
   - [x] Validating the Form with Yup library
   - [x] Displaying Input errors
-  - [ ] Sign Up Request to the Back-end with Axios
+  - [x] Sign Up Request to the Back-end with Axios
 - [x] Authentication
   - [x] Enable API access with CORS
   - [x] Sign In with Context API & useAuth custom hook
   - [x] Store User information and Token (JWT) with Local Storage
   - [x] Sign Out with Context API
-- [ ] Toast Notifications
-  - [ ] Toast Notifications structure
-  - [ ] useToast custom hook
-  - [ ] Add and Remove Toast
-  - [ ] Animating Toast
-- [ ] Application Routes
-  - [ ] Configure Routes with React Router V4
-  - [ ] Authenticated Routes
+- [x] Toast Notifications
+  - [x] Toast Notifications structure
+  - [x] useToast custom hook
+  - [x] Add and Remove Toast
+  - [x] Animating Toast
+- [x] Application Routes
+  - [x] Configure Routes with React Router V4
+  - [x] Authenticated Routes
 - [ ] More steps coming soon...
 
 ## Technologies
@@ -73,12 +73,15 @@ This project was developed with the following technologies:
 -  [ReactJS](https://reactjs.org/)
 -  [Create React App](https://create-react-app.dev/)
 -  [React Router v4](https://github.com/ReactTraining/react-router)
--  [styled-components](https://www.styled-components.com/)
+-  [Styled-Components](https://www.styled-components.com/)
 -  [Polished](https://polished.js.org/)
 -  [React-Icons](http://react-icons.github.io/react-icons/)
+-  [React-Spring](https://www.react-spring.io/)
+-  [Axios](https://github.com/axios/axios)
 -  [Unform](https://unform.dev/)
 -  [Yup](https://github.com/jquense/yup)
--  [VS Code][vc] with [EditorConfig][vceditconfig] and [ESLint][vceslint]
+-  [UUIDv4](https://github.com/thenativeweb/uuidv4)
+-  [VS Code][vc] with [EditorConfig][vceditconfig], [ESLint][vceslint] and [Prettier][vcprettier]
 
 ## How To Use
 
@@ -90,7 +93,7 @@ higher) installed on your computer. From your command line:
 $ git clone https://github.com/stevescruz/ebarber_web.git
 
 # Go into the repository
-$ cd explore_github
+$ cd ebarber_web
 
 # Install dependencies
 $ yarn install
@@ -110,3 +113,4 @@ This project is under the MIT license.
 [vc]: https://code.visualstudio.com/
 [vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 [vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+[vcprettier]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
