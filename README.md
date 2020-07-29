@@ -9,16 +9,29 @@
 
 </h4>
 
+<h4 align="center">
+
+Check out the Figma Layout [here](https://www.figma.com/file/V04tr5wzoDV3rbSMs28hrl/eBarber?node-id=34%3A1180)!
+
+</h4>
+
 <p align="center">
   <a href="#goal">Goal</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#requirements--user-stories-work-in-progress">Requirements & User Stories</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#requirements">Requirements</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
 
-![App Screenshot](https://res.cloudinary.com/dmct8cfu9/image/upload/v1594280788/ebarber_web_signup.gif)
-![App Screenshot2](https://res.cloudinary.com/dmct8cfu9/image/upload/v1594280792/ebarber_web_signin.gif)
+<div style="display: flex; flex-wrap: wrap;">
+<img style="margin: 5px" alt="Figma Layout" src="https://res.cloudinary.com/dmct8cfu9/image/upload/v1595997457/ebarber_web_figma-layout.png" width="295" />
+
+<img style="margin: 5px" alt="Sign In & Sign Out Pages Transition" src="https://res.cloudinary.com/dmct8cfu9/image/upload/v1595996081/ebarber_web_signin-signout-transition.gif" width="295" />
+
+<img style="margin: 5px" alt="Sign In Page Focus & Tooltips" src="https://res.cloudinary.com/dmct8cfu9/image/upload/v1595996080/ebarber_web_signin-focus_and_tooltips.gif" width="295" />
+
+<img style="margin: 5px" alt="Sign In Page Toast Notification" src="https://res.cloudinary.com/dmct8cfu9/image/upload/v1595996080/ebarber_web_signin-toast-notification_tyqz4b.gif" width="295" />
+</div>
 
 ## Goal
 
@@ -28,7 +41,7 @@ eBarber web is a web application that can consume the eBarber API to provide its
 
 **NOTE**: Check the eBarber API [here](https://github.com/stevescruz/ebarber_backend).
 
-## Requirements & User Stories (Work in Progress):
+## Requirements:
 
 - [x] Project structure
   - [x] Boilerplate with Create React App
